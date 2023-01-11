@@ -21,8 +21,9 @@ document.querySelector('#login-btn').onclick = () => {
     loginform.classList.toggle('active');
 }
 
-let navbar = document.querySelector('.nav-bar');
+let navbar = document.querySelector('.navbar');
 document.querySelector('#menu-btn').onclick = () => {
+    console.log("keval")
     navbar.classList.toggle('active');
 }
 
