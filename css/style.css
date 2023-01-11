@@ -6,7 +6,7 @@
     --green: green;
     --black: #130f40;
     --light-color: #666;
-    --box-shadow: 0 .1rem 1rem rgba(0,0,0.1) ;
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,0.1) ;
     --border: 2rem solid rgba(0,0,0.1) ;
     --outline : .1rem solid rgba(0,0,0.1) ;
 }
@@ -35,7 +35,29 @@ body
 {
     background: #eee;
 }
+/*css code for banner*/
+section
+{
+    padding: 2rem 9%;
+}
 
+.heading
+{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color: var(--black);
+}
+
+.heading span
+{
+    background: var(--green);
+    color: #fff;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
 .btn
 {
     border: .2rem solid var(--black);
@@ -68,7 +90,9 @@ body
     padding: 2rem 9%;
     background: #fff;
     box-shadow: var(--box-shadow);
+    z-index: 200;
 }
+
 
 .header .logo
 {
@@ -108,6 +132,7 @@ body
     margin-right: .3rem;
     text-align: center;
     cursor: pointer;
+   
 }
 .header .icons div:hover
 {
@@ -252,7 +277,7 @@ body
 {
     position: absolute;
     top: 110%;
-    right: -50%; 
+    right: -110%; 
     box-shadow: var(--box-shadow);
     padding: 2rem;
     border-radius: .5rem;
@@ -298,6 +323,151 @@ form.login-form.active
     text-decoration: underline;
 }
 
+.home
+{
+    border:0px solid;
+    display: flex;
+    justify-content: center;
+    background: url(../image/image/banner-img.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.home .content
+{
+    text-align: center;
+    border: 0px solid;
+    width: 100rem;
+}
+
+.home .content h3
+{
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.home .content h3 span
+{
+    color: var(--green);
+}
+
+ .home .content  p
+{
+    color: var(--light-color);
+    font-size: 1.7rem;
+    padding: 10rem 0;
+    line-height: 1.8;
+    text-overflow: ellipsis;
+} 
+
+
+/*feature*/
+.features .box-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+.features .box-container .box
+{
+    padding: 3rem 2rem;
+    background: #fff;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+.features .box-container .box:hover
+{
+    box-shadow: 1px 1px 10px 4px var(--green);
+}
+.features .box-container .box img
+{
+    margin: 1rem 0;
+    height: 15rem;
+}
+.features .box-container .box h3
+{
+    font-size: 2.5rem;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+.features .box-container .box p
+{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    padding: 1rem 0;
+    color: var(--light-color);
+}
+/*feature*/
+
+
+
+/*products*/
+.products .product-slider
+{
+    padding: 1rem;
+
+}
+
+.products .product-slider:first-child
+{
+    margin-bottom: 2rem;
+    
+}
+
+.products .product-slider .box
+{
+    background: #fff;
+    border-radius: .5rem;    
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+    
+}
+
+.products .product-slider .box:hover
+{
+    box-shadow:1px 1px 10px 4px var(--green) ;
+}
+.products .product-slider .box img
+{
+    height: 20rem;
+
+}
+.products .product-slider .box h1
+{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.products .product-slider .box .price
+{
+    font-size: 2rem;
+    color: var(--light-color);
+    padding: .5rem 0;
+}
+
+.products .product-slider  .box .stars 
+{
+    font-size: 1.7rem;
+    color: orange;
+    padding: .5rem 0;    
+}
+
+/*products*/
+
+
+
+
+
+  
+
 
 /* media queries */
 @media (max-width: 991px)
@@ -318,13 +488,14 @@ form.login-form.active
  #menu-btn
 {
     display: none;
+    
 } 
 }
 @media (max-width: 768px)
 {
-    .menu-btn
+    #menu-btn
     {
-        display: inline-block !important;
+        display: inline-block ;
     }
     .header .navbar
     {
@@ -335,6 +506,7 @@ form.login-form.active
         box-shadow: var(--box-shadow);
         border-radius: .5rem;
         background: #fff ;
+        display: none;
     }
     .header .navbar a
     {
