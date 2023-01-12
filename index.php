@@ -25,10 +25,10 @@
 
 		<nav class="navbar">
 			<a href="#home">Home</a>
-			<a href="#home">Feature</a>
-			<a href="#home">Products</a>
-			<a href="#home">Categories</a>
-			<a href="#home">Reviews</a>
+			<a href="#features">Feature</a>
+			<a href="#products">Products</a>
+			<a href="#categories">Categories</a>
+			<a href="#review">Reviews</a>
 			<a href="#home">Blogs</a>
 		</nav>
 
@@ -108,19 +108,22 @@
 			<div class="box">
 				<img src="image/image/feature-img-1.png" alt="" srcset="">
 				<h3>fresh and organic</h3>
-				<p>Our website provides fresh and hygenic grocery items.We provide organic items to provide best quality products to the customer</p>
+				<p>Our website provides fresh and hygenic grocery items.We provide organic items to provide best quality
+					products to the customer</p>
 				<a href="#" class="btn">read more</a>
 			</div>
 			<div class="box">
 				<img src="image/image/feature-img-2.png" alt="" srcset="">
 				<h3>free delivery</h3>
-				<p>Our website provides free delivery on all the products min(RS.500 and above).Our website provides one day delivery to the plus customer member.</p>
+				<p>Our website provides free delivery on all the products min(RS.500 and above).Our website provides one
+					day delivery to the plus customer member.</p>
 				<a href="#" class="btn">read more</a>
 			</div>
 			<div class="box">
 				<img src="image/image/feature-img-3.png" alt="" srcset="">
 				<h3>Easy Payments</h3>
-				<p>Our website provides all the methods of payment i.e UPI payment, Credit card, Debit card.Our website uses end to end encription in storing details.</p>
+				<p>Our website provides all the methods of payment i.e UPI payment, Credit card, Debit card.Our website
+					uses end to end encription in storing details.</p>
 				<a href="#" class="btn">read more</a>
 			</div>
 		</div>
@@ -245,12 +248,167 @@
 					</div>
 					<a href="" class="btn">add to cart</a>
 				</div>
-				
+
 			</div>
 			<div class="swiper-pagination"></div>
-					</div>
+		</div>
 	</section>
 	<!--Products Section-->
+
+	<!--Categories Section-->
+	<section class="categories" id="categories">
+		<h1 class="heading">product <span>categories</span> </h1>
+		<div class="box-container">
+			<div class="box">
+				<img src="image/image/cat-1.png" alt="">
+				<h3>vegetables</h3>
+				<p>Upto 45% off</p>
+				<a href="" class="btn">shop now</a>
+			</div>
+
+			<div class="box">
+				<img src="image/image/cat-2.png" alt="">
+				<h3>fresh fruits</h3>
+				<p>Upto 45% off</p>
+				<a href="" class="btn">shop now</a>
+			</div>
+
+			<div class="box">
+				<img src="image/image/cat-3.png" alt="">
+				<h3>dairy products</h3>
+				<p>Upto 45% off</p>
+				<a href="" class="btn">shop now</a>
+			</div>
+			<div class="box">
+				<img src="image/image/cat-4.png" alt="">
+				<h3>fresh meat</h3>
+				<p>Upto 45% off</p>
+				<a href="" class="btn">shop now</a>
+			</div>
+		</div>
+	</section>
+	<!--Categories Section-->
+
+	<!--Review Section-->
+	<section class="review" id="review">
+		<h1 class="heading">Customer's <span>Review</span> </h1>
+		<div class="swiper review-slider">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide box">
+					<img src="image/image/pic-1.png" alt="">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+						of type and scrambled it to make a type specimen book.</p>
+					<h3>Natsu Dragneel</h3>
+					<div class="stars">
+						<i class="fa fa-stars"></i>
+						<i class="fa fa-stars"></i>
+						<i class="fa fa-stars"></i>
+						<i class="fa fa-stars"></i>
+						<i class="fa fa-stars-half"></i>
+					</div>
+				</div>
+
+				<div class="swiper-slide box">
+					<img src="image/image/pic-2.png" alt="">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+						of type and scrambled it to make a type specimen book.</p>
+					<h3>Lucy Hearflia</h3>
+					<div class="stars">
+						<i class="fa fa-stars"></i>
+						<i class="fa fa-stars"></i>
+						<i class="fa fa-stars"></i>
+						<i class="fa fa-stars"></i>
+						<i class="fa fa-stars-half"></i>
+					</div>
+				</div>
+
+				<div class="swiper-slide box">
+					<img src="image/image/pic-3.png" alt="">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+						of type and scrambled it to make a type specimen book.</p>
+					<h3>Gray Labstar</h3>
+					<div class="stars">
+						<i class="fa fa-stars"></i>
+						<i class="fa fa-stars"></i>
+						<i class="fa fa-stars"></i>
+						<i class="fa fa-stars"></i>
+						<i class="fa fa-stars-half"></i>
+					</div>
+				</div>
+
+				<div class="swiper-slide box">
+					<img src="image/image/pic-4.png" alt="">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+						of type and scrambled it to make a type specimen book.</p>
+					<h3>Mirajane</h3>
+					<div class="stars">
+						<i class="fa fa-stars"></i>
+						<i class="fa fa-stars"></i>
+						<i class="fa fa-stars"></i>
+						<i class="fa fa-stars"></i>
+						<i class="fa fa-stars-half"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Review Section-->
+
+	<!--Blog Section-->
+	<section class="blog" id="blogs">
+		<h1 class="heading">Our <span>blogs</span> </h1>
+		<div class="box-container">
+			<div class="box">
+				<img src="image/image/blog-1.jpg" alt="" srcset="">
+				<div class="content">
+					<div class="icons">
+						<a href="#"><i class="fa fa-user"></i>By User</a>
+						<a href="#"><i class="fa fa-calender"></i>1st May, 2021</a>	 
+					</div>
+					<h3>Fresh and Organic Vegetables and Fruits</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+						of type and scrambled it to make a type specimen book.</p>
+						<a href="" class="btn">Read More</a>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="image/image/blog-2.jpg" alt="" srcset="">
+				<div class="content">
+					<div class="icons">
+						<a href="#"><i class="fa fa-user"></i>By User</a>
+						<a href="#"><i class="fa fa-calender"></i>1st May, 2021</a>	 
+					</div>
+					<h3>Fresh and Organic Vegetables and Fruits</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+						of type and scrambled it to make a type specimen book.</p>
+						<a href="" class="btn">Read More</a>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="image/image/blog-3.jpg" alt="" srcset="">
+				<div class="content">
+					<div class="icons">
+						<a href="#"><i class="fa fa-user"></i>By User</a>
+						<a href="#"><i class="fa fa-calender"></i>1st May, 2021</a>	 
+					</div>
+					<h3>Fresh and Organic Vegetables and Fruits</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+						of type and scrambled it to make a type specimen book.</p>
+						<a href="" class="btn">Read More</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Blog Section-->
 	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 	<script src="js/script.js"></script>
 
