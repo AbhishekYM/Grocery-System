@@ -11,7 +11,7 @@
 	<!--Code for font awesone cdn-->
 
 	<!--Code for linking css file-->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="/Final_Project/css/style.css">
 	<!--Code for linking css file-->
 	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
@@ -29,7 +29,7 @@
 			<a href="#products">Products</a>
 			<a href="#categories">Categories</a>
 			<a href="#review">Reviews</a>
-			<a href="#home">Blogs</a>
+			<a href="#blogs">Blogs</a>
 		</nav>
 
 		<div class="icons">
@@ -47,7 +47,7 @@
 		<div class="shopping-cart">
 			<div class="box">
 				<i class="fa fa-trash"></i>
-				<img src="image/image/cart-img-1.png" alt="">
+				<img src="/Final_Project/image/image/cart-img-1.png" alt="">
 				<div class="content">
 					<h3>Watermelon</h3>
 					<span class="price">100</span>
@@ -56,7 +56,7 @@
 			</div>
 			<div class="box">
 				<i class="fa fa-trash"></i>
-				<img src="image/image/cart-img-3.png" alt="">
+				<img src="/Final_Project/image/image/cart-img-3.png" alt="">
 				<div class="content">
 					<h3>Chicken</h3>
 					<span class="price">100</span>
@@ -65,7 +65,7 @@
 			</div>
 			<div class="box">
 				<i class="fa fa-trash"></i>
-				<img src="image/image/cart-img-2.png" alt="">
+				<img src="/Final_Project/image/image/cart-img-2.png" alt="">
 				<div class="content">
 					<h3>Onion</h3>
 					<span class="price">100</span>
@@ -97,7 +97,6 @@
 				this service.</p>
 			<a href="#" class="btn">shop now</a>
 	</div>
-
 	</section>
 	<!--Banner Section-->
 
@@ -106,21 +105,21 @@
 		<h1 class="heading"> our <span>features</span> </h1>
 		<div class="box-container">
 			<div class="box">
-				<img src="image/image/feature-img-1.png" alt="" srcset="">
+				<img src="/Final_Project/image/image/feature-img-1.png" alt="" srcset="">
 				<h3>fresh and organic</h3>
 				<p>Our website provides fresh and hygenic grocery items.We provide organic items to provide best quality
 					products to the customer</p>
 				<a href="#" class="btn">read more</a>
 			</div>
 			<div class="box">
-				<img src="image/image/feature-img-2.png" alt="" srcset="">
+				<img src="/Final_Project/image/image/feature-img-2.png" alt="" srcset="">
 				<h3>free delivery</h3>
 				<p>Our website provides free delivery on all the products min(RS.500 and above).Our website provides one
 					day delivery to the plus customer member.</p>
 				<a href="#" class="btn">read more</a>
 			</div>
 			<div class="box">
-				<img src="image/image/feature-img-3.png" alt="" srcset="">
+				<img src="/Final_Project/image/image/feature-img-3.png" alt="" srcset="">
 				<h3>Easy Payments</h3>
 				<p>Our website provides all the methods of payment i.e UPI payment, Credit card, Debit card.Our website
 					uses end to end encription in storing details.</p>
@@ -138,7 +137,7 @@
 		<div class="swiper product-slider">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide box">
-					<img src="image/image/product-1.png" alt="">
+					<img src="/Final_Project/image/image/product-1.png" alt="">
 					<h1>fresh orange</h1>
 					<div class="price">100/- - 200/-</div>
 					<div class="stars">
@@ -151,7 +150,7 @@
 					<a href="" class="btn">add to cart</a>
 				</div>
 				<div class="swiper-slide box">
-					<img src="image/image/product-2.png" alt="">
+					<img src="/Final_Project/image/image/product-2.png" alt="">
 					<h1>fresh onion</h1>
 					<div class="price">100/- - 200/-</div>
 					<div class="stars">
@@ -164,7 +163,7 @@
 					<a href="" class="btn">add to cart</a>
 				</div>
 				<div class="swiper-slide box">
-					<img src="image/image/product-3.png" alt="">
+					<img src="/Final_Project/image/image/product-3.png" alt="">
 					<h1>fresh meat</h1>
 					<div class="price">100/- - 200/-</div>
 					<div class="stars">
@@ -177,7 +176,7 @@
 					<a href="" class="btn">add to cart</a>
 				</div>
 				<div class="swiper-slide box">
-					<img src="image/image/product-4.png" alt="">
+					<img src="/Final_Project/image/image/product-4.png" alt="">
 					<h1>fresh cabbage</h1>
 					<div class="price">100/- - 200/-</div>
 					<div class="stars">
@@ -197,7 +196,7 @@
 		<div class="swiper product-slider">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide box">
-					<img src="image/image/product-5.png" alt="">
+					<img src="/Final_Project/image/image/product-5.png" alt="">
 					<h1>fresh potato</h1>
 					<div class="price">100/- - 200/-</div>
 					<div class="stars">
@@ -210,7 +209,7 @@
 					<a href="" class="btn">add to cart</a>
 				</div>
 				<div class="swiper-slide box">
-					<img src="image/image/product-6.png" alt="">
+					<img src="/Final_Project/image/image/product-6.png" alt="">
 					<h1>fresh Guvava</h1>
 					<div class="price">100/- - 200/-</div>
 					<div class="stars">
@@ -223,7 +222,7 @@
 					<a href="" class="btn">add to cart</a>
 				</div>
 				<div class="swiper-slide box">
-					<img src="image/image/product-7.png" alt="">
+					<img src="/Final_Project/image/image/product-7.png" alt="">
 					<h1>fresh carrot</h1>
 					<div class="price">100/- - 200/-</div>
 					<div class="stars">
@@ -236,7 +235,7 @@
 					<a href="" class="btn">add to cart</a>
 				</div>
 				<div class="swiper-slide box">
-					<img src="image/image/product-8.png" alt="">
+					<img src="/Final_Project/image/image/product-8.png" alt="">
 					<h1>fresh lemon</h1>
 					<div class="price">100/- - 200/-</div>
 					<div class="stars">
@@ -260,27 +259,27 @@
 		<h1 class="heading">product <span>categories</span> </h1>
 		<div class="box-container">
 			<div class="box">
-				<img src="image/image/cat-1.png" alt="">
+				<img src="/Final_Project/image/image/cat-1.png" alt="">
 				<h3>vegetables</h3>
 				<p>Upto 45% off</p>
 				<a href="" class="btn">shop now</a>
 			</div>
 
 			<div class="box">
-				<img src="image/image/cat-2.png" alt="">
+				<img src="/Final_Project/image/image/cat-2.png" alt="">
 				<h3>fresh fruits</h3>
 				<p>Upto 45% off</p>
 				<a href="" class="btn">shop now</a>
 			</div>
 
 			<div class="box">
-				<img src="image/image/cat-3.png" alt="">
+				<img src="/Final_Project/image/image/cat-3.png" alt="">
 				<h3>dairy products</h3>
 				<p>Upto 45% off</p>
 				<a href="" class="btn">shop now</a>
 			</div>
 			<div class="box">
-				<img src="image/image/cat-4.png" alt="">
+				<img src="/Final_Project/image/image/cat-4.png" alt="">
 				<h3>fresh meat</h3>
 				<p>Upto 45% off</p>
 				<a href="" class="btn">shop now</a>
@@ -295,7 +294,7 @@
 		<div class="swiper review-slider">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide box">
-					<img src="image/image/pic-1.png" alt="">
+					<img src="/Final_Project/image/image/pic-1.png" alt="">
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
 						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
 						of type and scrambled it to make a type specimen book.</p>
@@ -310,7 +309,7 @@
 				</div>
 
 				<div class="swiper-slide box">
-					<img src="image/image/pic-2.png" alt="">
+					<img src="/Final_Project/image/image/pic-2.png" alt="">
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
 						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
 						of type and scrambled it to make a type specimen book.</p>
@@ -323,9 +322,8 @@
 						<i class="fa fa-stars-half"></i>
 					</div>
 				</div>
-
 				<div class="swiper-slide box">
-					<img src="image/image/pic-3.png" alt="">
+					<img src="/Final_Project/image/image/pic-3.png" alt="">
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
 						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
 						of type and scrambled it to make a type specimen book.</p>
@@ -338,9 +336,8 @@
 						<i class="fa fa-stars-half"></i>
 					</div>
 				</div>
-
 				<div class="swiper-slide box">
-					<img src="image/image/pic-4.png" alt="">
+					<img src="/Final_Project/image/image/pic-4.png" alt="">
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
 						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
 						of type and scrambled it to make a type specimen book.</p>
@@ -359,11 +356,11 @@
 	<!--Review Section-->
 
 	<!--Blog Section-->
-	<section class="blog" id="blogs">
+	<section class="blogs" id="blogs">
 		<h1 class="heading">Our <span>blogs</span> </h1>
 		<div class="box-container">
 			<div class="box">
-				<img src="image/image/blog-1.jpg" alt="" srcset="">
+				<img src="/Final_Project/image/image/blog-1.jpg" alt="" srcset="">
 				<div class="content">
 					<div class="icons">
 						<a href="#"><i class="fa fa-user"></i>By User</a>
@@ -378,7 +375,7 @@
 			</div>
 
 			<div class="box">
-				<img src="image/image/blog-2.jpg" alt="" srcset="">
+				<img src="/Final_Project/image/image/blog-2.jpg" alt="" srcset="">
 				<div class="content">
 					<div class="icons">
 						<a href="#"><i class="fa fa-user"></i>By User</a>
@@ -393,7 +390,7 @@
 			</div>
 
 			<div class="box">
-				<img src="image/image/blog-3.jpg" alt="" srcset="">
+				<img src="/Final_Project/image/image/blog-3.jpg" alt="" srcset="">
 				<div class="content">
 					<div class="icons">
 						<a href="#"><i class="fa fa-user"></i>By User</a>
@@ -410,7 +407,7 @@
 	</section>
 	<!--Blog Section-->
 	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-	<script src="js/script.js"></script>
+	<script src="/Final_Project/js/script.js"></script>
 
 </body>
 
