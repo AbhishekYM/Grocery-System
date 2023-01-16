@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!--=== Coding by CodingLab | www.codinglabweb.com === -->
 <html lang="en">
 
 <head>
@@ -18,8 +17,10 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-    <!--<title>Admin Dashboard Panel</title>-->
+    <title>Admin Dashboard Panel</title>
 </head>
 
 <body>
@@ -115,6 +116,13 @@
                             inventory_2
                         </span>
                         <span class="text">Total orders</span>
+                        <span class="number">10,120</span>
+                    </div>
+                    <div class="box box3">
+                        <span class="material-symbols-outlined">
+                            thumb_up
+                        </span>
+                        <span class="text">Pending</span>
                         <span class="number">10,120</span>
                     </div>
                 </div>
