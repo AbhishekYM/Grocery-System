@@ -1,3 +1,8 @@
+<?php
+include('../include/connect.php');
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,6 +29,7 @@
 </head>
 
 <body>
+    <form action="" method="post">
     <nav>
         <div class="logo-name">
             <div class="logo-image">
@@ -39,17 +45,17 @@
                         <i class="uil uil-estate"></i>
                         <span class="link-name">Dashboard</span>
                     </a></li>
-                <li><a href="#">
+                <li><a href="insert_product.php">
                         <i class="uil uil-files-landscapes"></i>
-                        <span class="link-name">Content</span>
+                        <span class="link-name">Products</span>
                     </a></li>
-                <li><a href="#">
+                <li><a href="insert_categories.php">
                         <i class="uil uil-chart"></i>
-                        <span class="link-name">Analytics</span>
+                        <span class="link-name">Categories</span>
                     </a></li>
                 <li><a href="#">
                         <i class="uil uil-thumbs-up"></i>
-                        <span class="link-name">Like</span>
+                        <span class="link-name">Brands</span>
                     </a></li>
                 <li><a href="#">
                         <i class="uil uil-comments"></i>
@@ -77,6 +83,10 @@
             </ul>
         </div>
     </nav>
+
+
+
+
     <section class="dashboard">
         <div class="top">
             <i class="uil uil-bars sidebar-toggle"></i>
@@ -85,7 +95,6 @@
                 <i class="uil uil-search"></i>
                 <input type="text" placeholder="Search here...">
             </div>
-
             <img src="image/image/logo.png" alt="">
         </div>
 
@@ -114,16 +123,22 @@
                     <div class="box box3">
                         <span class="material-symbols-rounded">
                             inventory_2
-                        </span>
-                        <span class="text">Total orders</span>
-                        <span class="number">10,120</span>
+                        </span> 
+                       
+                        <a class="text">Total orders</a>
+                        <span class="number">1000</span>
                     </div>
                     <div class="box box3">
                         <span class="material-symbols-outlined">
                             thumb_up
                         </span>
-                        <span class="text">Pending</span>
-                        <span class="number">10,120</span>
+                        <?php
+                        $sql = "SELECT COUNT(id) AS total from category;";
+                        $execute = mysqli_query($con, $sql);
+                        $rowsselectCount = mysqli_fetch_array($execute);
+                        ?>
+                        <a href="categories.php" class="text">Categories</a>
+                        <span class="number"><?php echo $rowsselectCount['total']; ?></span>
                     </div>
                 </div>
             </div>
@@ -187,6 +202,15 @@
             </div>
         </div>
     </section>
+    <div class="container">
+    <?php
+    if(isset($_GET['insert_category']))
+    
+        include('insert_categories.php')
+    
+    ?>
+</div>
+</form>
     <!--<script src="script.js"></script>-->
     <script src="/Final_Project/admin/script.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>

@@ -1,3 +1,6 @@
+<?php
+include('../../include/connect.php');
+?>
 <!DOCTYPE html>
 <html>
 
@@ -255,33 +258,57 @@
 	<!--Products Section-->
 
 	<!--Categories Section-->
+
+
+
+
 	<section class="categories" id="categories">
 		<h1 class="heading">product <span>categories</span> </h1>
 		<div class="box-container">
+			<?php
+			$selectVegetable = "select * from category where title='vegetable'";
+			$executeSelectVegetable = mysqli_query($con, $selectVegetable);
+			$rowsselectVegetable = mysqli_fetch_array($executeSelectVegetable);
+			?>
 			<div class="box">
-				<img src="/Final_Project/image/image/cat-1.png" alt="">
-				<h3>vegetables</h3>
-				<p>Upto 45% off</p>
+				<img src="/Final_Project/image/image/<?php echo $rowsselectVegetable['image']; ?>" alt="">
+				<h3><?php echo $rowsselectVegetable['title']; ?></h3>
+				<p>Upto <?php echo $rowsselectVegetable['discount']; ?> off</p>
 				<a href="" class="btn">shop now</a>
 			</div>
+			<?php
+			$selectVegetable = "select * from category where title='fruits'";
+			$executeSelectVegetable = mysqli_query($con, $selectVegetable);
+			$rowsselectVegetable = mysqli_fetch_array($executeSelectVegetable);
+			?>
 
 			<div class="box">
-				<img src="/Final_Project/image/image/cat-2.png" alt="">
-				<h3>fresh fruits</h3>
-				<p>Upto 45% off</p>
+				<img src="/Final_Project/image/image/<?php echo $rowsselectVegetable['image']; ?>" alt="">
+				<h3><?php echo $rowsselectVegetable['title']; ?></h3>
+				<p>Upto  <?php echo $rowsselectVegetable['discount']; ?> off</p>
 				<a href="" class="btn">shop now</a>
 			</div>
-
+			<?php
+			$selectVegetable = "select * from category where title='Dairy Products'";
+			$executeSelectVegetable = mysqli_query($con, $selectVegetable = mysqli_fetch_array($executeSelectVegetable);selectVegetable);
+			$rows
+			?>
 			<div class="box">
-				<img src="/Final_Project/image/image/cat-3.png" alt="">
-				<h3>dairy products</h3>
-				<p>Upto 45% off</p>
+				<img src="/Final_Project/image/image/<?php echo $rowsselectVegetable['image']; ?>" alt="">
+				<h3><?php echo $rowsselectVegetable['title']; ?></h3>
+				<p>Upto  <?php echo $rowsselectVegetable['discount']; ?> off</p>
 				<a href="" class="btn">shop now</a>
 			</div>
+			
+			<?php
+			$selectVegetable = "select * from category where title='Fresh Meat'";
+			$executeSelectVegetable = mysqli_query($con, $selectVegetable);
+			$rowsselectVegetable = mysqli_fetch_array($executeSelectVegetable);
+			?>
 			<div class="box">
-				<img src="/Final_Project/image/image/cat-4.png" alt="">
-				<h3>fresh meat</h3>
-				<p>Upto 45% off</p>
+				<img src="/Final_Project/image/image/<?php echo $rowsselectVegetable['image']; ?>" alt="">
+				<h3><?php echo $rowsselectVegetable['title']; ?></h3>
+				<p>Upto  <?php echo $rowsselectVegetable['discount']; ?> off</p>
 				<a href="" class="btn">shop now</a>
 			</div>
 		</div>
